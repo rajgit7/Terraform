@@ -8,7 +8,7 @@ terraform {
 
    backend "s3" {
     bucket = "raj-remotestate"
-    key    = "remote-state-demo"
+    key    = "for-each-demo"
     region = "us-east-1"
     dynamodb_table = "raj-locking"
   }
